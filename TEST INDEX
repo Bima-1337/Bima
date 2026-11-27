@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Topik • 9 Bagian - Bima Satria</title>
+</head>
+
+<body style="
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+">
+
+    <!-- Header -->
+    <header style="
+        background-color: #1e3a8a;
+        color: white;
+        text-align: center;
+        padding: 32px 20px;
+    ">
+        <h1 style="margin: 0;">Portofolio Topik &amp; Bagian</h1>
+        <p style="margin-bottom: 0; color: #dbeafe;">
+            3 Topik Utama • Masing-Masing 3 Bagian (Total 9 Bagian)
+        </p>
+    </header>
+
+    <!-- Ringkasan -->
+    <section style="
+        background-color: white;
+        padding: 24px;
+        margin: 20px auto;
+        max-width: 720px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        text-align: center;
+    ">
+        <h2 style="color: #2563eb; margin-top: 0;">Struktur 3 Topik (9 Bagian)</h2>
+        <p style="color: #64748b; line-height: 1.6; margin-bottom: 0;">
+            Setiap topik dibagi menjadi 3 bagian terfokus agar mudah dibaca dan dikembangkan ke halaman terpisah.
+        </p>
+    </section>
+
+    <!-- ===================================== -->
+    <!-- TOPIK 1 (3 Bagian: Bagian 1 - 3)      -->
+    <!-- ===================================== -->
+    <section style="
+        background-color: white;
+        padding: 25px;
+        margin: 20px auto;
+        max-width: 720px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        border-top: 6px solid #2563eb;
+    ">
+        <h2 style="color: #2563eb; margin-top: 0; margin-bottom: 6px;">
+            Topik 1: Sejarah &amp; Geopolitik
+        </h2>
+        <p style="color: #64748b; margin-top: 0; margin-bottom: 18px; font-size: 14px;">
+            Terdiri dari 3 bagian utama.
+        </p>
+
+        <!-- Bagian 1 -->
+        <div style="
+            background-color: #eff6ff;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        ">
+            <p style="color: #1d4ed8; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 1 • Bagian 1 dari 3
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Dinamika Politik &amp; Transisi</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Catatan urutan peristiwa penting dan perubahan kebijakan pada masa transisi.
+            </p>
+        </div>
+
+        <!-- Bagian 2 -->
+        <div style="
+            background-color: #eff6ff;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        ">
+            <p style="color: #1d4ed8; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 1 • Bagian 2 dari 3
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Peta Kepentingan Kawasan</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Analisis posisi strategis, diplomasi, dan pengaruh aktor dalam hubungan internasional.
+            </p>
+        </div>
+
+        <!-- Bagian 3 -->
+        <div style="
+            background-color: #eff6ff;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        ">
+            <p style="color: #1d4ed8; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 1 • Bagian 3 dari 3
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Arsip &amp; Sumber Sejarah</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Ringkasan dokumen, kutipan sumber, dan evaluasi sudut pandang sejarah.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================================== -->
+    <!-- TOPIK 2 (3 Bagian: Bagian 4 - 6)      -->
+    <!-- ===================================== -->
+    <section style="
+        background-color: white;
+        padding: 25px;
+        margin: 20px auto;
+        max-width: 720px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        border-top: 6px solid #0d9488;
+    ">
+        <h2 style="color: #0f766e; margin-top: 0; margin-bottom: 6px;">
+            Topik 2: Literasi &amp; Catatan Bacaan
+        </h2>
+        <p style="color: #64748b; margin-top: 0; margin-bottom: 18px; font-size: 14px;">
+            Terdiri dari 3 bagian utama.
+        </p>
+
+        <!-- Bagian 4 -->
+        <div style="
+            background-color: #f0fdfa;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #0d9488;
+        ">
+            <p style="color: #0f766e; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 2 • Bagian 1 dari 3 (Total #4)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Fiksi Sejarah &amp; Keluarga</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Ulasan singkat alur, tokoh, dan latar sejarah dari novel yang dibaca.
+            </p>
+        </div>
+
+        <!-- Bagian 5 -->
+        <div style="
+            background-color: #f0fdfa;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #0d9488;
+        ">
+            <p style="color: #0f766e; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 2 • Bagian 2 dari 3 (Total #5)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Pemikiran &amp; Nonfiksi</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Poin gagasan utama dan argumen penting dari buku nonfiksi.
+            </p>
+        </div>
+
+        <!-- Bagian 6 -->
+        <div style="
+            background-color: #f0fdfa;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #0d9488;
+        ">
+            <p style="color: #0f766e; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 2 • Bagian 3 dari 3 (Total #6)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Kutipan &amp; Refleksi Pribadi</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Kumpulan kutipan pilihan beserta catatan refleksi setelah selesai membaca.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================================== -->
+    <!-- TOPIK 3 (3 Bagian: Bagian 7 - 9)      -->
+    <!-- ===================================== -->
+    <section style="
+        background-color: white;
+        padding: 25px;
+        margin: 20px auto;
+        max-width: 720px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        border-top: 6px solid #ea580c;
+    ">
+        <h2 style="color: #c2410c; margin-top: 0; margin-bottom: 6px;">
+            Topik 3: Dokumentasi Visual &amp; Hobi
+        </h2>
+        <p style="color: #64748b; margin-top: 0; margin-bottom: 18px; font-size: 14px;">
+            Terdiri dari 3 bagian utama.
+        </p>
+
+        <!-- Bagian 7 -->
+        <div style="
+            background-color: #fff7ed;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #ea580c;
+        ">
+            <p style="color: #c2410c; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 3 • Bagian 1 dari 3 (Total #7)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Spotting &amp; Dokumentasi</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Catatan lokasi, waktu, dan detail objek yang didokumentasikan.
+            </p>
+        </div>
+
+        <!-- Bagian 8 -->
+        <div style="
+            background-color: #fff7ed;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #ea580c;
+        ">
+            <p style="color: #c2410c; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 3 • Bagian 2 dari 3 (Total #8)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Pengaturan &amp; Teknik Foto</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Catatan pencahayaan, sudut pengambilan gambar, dan hasil seleksi foto.
+            </p>
+        </div>
+
+        <!-- Bagian 9 -->
+        <div style="
+            background-color: #fff7ed;
+            padding: 16px;
+            margin: 14px 0;
+            border-radius: 10px;
+            border-left: 5px solid #ea580c;
+        ">
+            <p style="color: #c2410c; font-size: 12px; font-weight: bold; margin: 0 0 4px 0;">
+                Topik 3 • Bagian 3 dari 3 (Total #9)
+            </p>
+            <h3 style="margin: 0 0 8px 0;">Catatan Perjalanan &amp; Aktivitas</h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 14px;">
+                Log singkat rute, kegiatan rutin, dan pengalaman di lapangan.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="
+        background-color: #1e293b;
+        color: white;
+        text-align: center;
+        padding: 18px;
+        margin-top: 30px;
+    ">
+        <p style="margin: 0;">
+            &copy; 2026 Bima Satria • 3 Topik × 3 Bagian = 9 Bagian
+        </p>
+    </footer>
+
+</body>
+</html>
