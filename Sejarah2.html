@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Sejarah - Portofolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfbf9;
+            color: #1f2937;
+            margin: 0;
+            padding: 24px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+        .header-tag {
+            color: #b45309;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #111827;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        .content {
+            color: #4b5563;
+            margin-bottom: 24px;
+        }
+        
+        /* Accordion Style using details / summary */
+        details.topic-card {
+            background-color: #fffbeb;
+            border-radius: 10px;
+            border-left: 5px solid #b45309;
+            margin-top: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        summary.topic-summary {
+            padding: 18px 20px;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+        summary.topic-summary::-webkit-details-marker {
+            display: none;
+        }
+        .summary-title-area {
+            display: flex;
+            flex-direction: column;
+        }
+        .topic-category {
+            color: #b45309;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+        .topic-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #111827;
+            margin: 0;
+        }
+        .toggle-icon {
+            background-color: #b45309;
+            color: #ffffff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            flex-shrink: 0;
+            transition: transform 0.2s ease;
+        }
+        details[open] .toggle-icon {
+            transform: rotate(45deg);
+        }
+        .topic-body {
+            padding: 0 20px 20px 20px;
+            border-top: 1px solid #fde68a;
+            color: #374151;
+            margin-top: 8px;
+        }
+        .topic-body h4 {
+            color: #92400e;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        .topic-body ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .topic-body li {
+            margin-bottom: 6px;
+        }
+        
+        /* Image styling inside topic */
+        .topic-image {
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 14px;
+            margin-bottom: 6px;
+            border: 1px solid #fde68a;
+            background-color: #f3f4f6;
+        }
+        .image-caption {
+            font-size: 12px;
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 14px;
+            font-style: italic;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #b45309;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-tag">Log Sejarah & Analisis</div>
+        <h1>Arsip & Pemikiran Sejarah</h1>
+        <p class="content">
+            Halaman khusus ini mendokumentasikan eksplorasi mendalam mengenai sejarah politik modern Indonesia, dinamika pergerakan nasional, serta catatan analitis peristiwa masa lampau. Klik tombol <strong style="color: #b45309;">+</strong> pada topik untuk membaca ringkasan lengkap dan melihat dokumentasi foto.
+        </p>
+        
+        <!-- TOPIK 1: Agresi Militer Belanda II -->
+        <details class="topic-card">
+            <summary class="topic-summary">
+                <div class="summary-title-area">
+                    <span class="topic-category">Peristiwa & Militer</span>
+                    <h3 class="topic-title">1. Agresi Militer Belanda II</h3>
+                </div>
+                <div class="toggle-icon">+</div>
+            </summary>
+            <div class="topic-body">
+                <img src="Agresi.jpeg" alt="Agresi Militer Belanda II" class="topic-image">
+                <div class="image-caption">Dokumentasi Arsip Agresi Militer Belanda II</div>
+
+                <p><strong>1. Pengertian dan Waktu Pelaksanaan</strong><br>
+                Agresi Militer Belanda II (dikenal oleh militer Belanda sebagai <em>Operatie Kraai</em> atau Operasi Gagak) adalah serangan militer berskala besar kedua yang dilancarkan oleh Belanda terhadap Republik Indonesia pada tanggal <strong>19 Desember 1948</strong>.</p>
+
+                <p><strong>2. Latar Belakang dan Tujuan</strong></p>
+                <ul>
+                    <li><strong>Latar Belakang:</strong> Jalan buntu dalam perundingan serta saling tuduh pelanggaran terhadap isi Perjanjian Renville.</li>
+                    <li><strong>Tujuan Utama:</strong> Melumpuhkan pusat pemerintahan RI di Yogyakarta dan menangkap para pemimpin tertinggi negara.</li>
+                </ul>
+
+                <p><strong>3. Kronologi Singkat</strong></p>
+                <ul>
+                    <li><strong>19 Desember 1948:</strong> Belanda membombardir Pangkalan Udara Maguwo dan mengerahkan pasukan payung merebut Yogyakarta.</li>
+                    <li><strong>Penangkapan Tokoh:</strong> Presiden Soekarno, Wapres Mohammad Hatta, dan menteri ditawan lalu diasingkan ke Pulau Bangka.</li>
+                </ul>
+
+                <p><strong>4. Strategi Perlawanan Indonesia</strong></p>
+                <ul>
+                    <li><strong>Pembentukan PDRI:</strong> Mandat darurat diberikan kepada Sjafruddin Prawiranegara untuk membentuk Pemerintah Darurat Republik Indonesia di Bukittinggi.</li>
+                    <li><strong>Perang Gerilya:</strong> Panglima Besar Jenderal Soedirman memimpin TNI dan rakyat bergerilya dari hutan meski dalam kondisi sakit.</li>
+                </ul>
+
+                <p><strong>5. Akhir Konflik & Dampak</strong><br>
+                Kecaman internasional, keberhasilan Serangan Umum 1 Maret 1949, serta desakan PBB memaksa Belanda berunding melalui Perjanjian Roem-Roijen hingga pengakuan kedaulatan.</p>
+            </div>
+        </details>
+
+        <!-- TOPIK 2: Proklamasi Kemerdekaan Indonesia -->
+        <details class="topic-card">
+            <summary class="topic-summary">
+                <div class="summary-title-area">
+                    <span class="topic-category">Kemerdekaan</span>
+                    <h3 class="topic-title">2. Proklamasi Kemerdekaan Indonesia</h3>
+                </div>
+                <div class="toggle-icon">+</div>
+            </summary>
+            <div class="topic-body">
+                <img src="Proklamasi.jpeg" alt="Proklamasi Kemerdekaan" class="topic-image">
+                <div class="image-caption">Dokumentasi / Ilustrasi Proklamasi 17 Agustus 1945</div>
+
+                <p><strong>1. Waktu dan Tempat</strong><br>
+                Proklamasi kemerdekaan Republik Indonesia dikumandangkan pada hari Jumat, <strong>17 Agustus 1945</strong>, bertempat di Jalan Pegangsaan Timur No. 56, Jakarta Pusat.</p>
+
+                <p><strong>2. Tokoh Penting</strong></p>
+                <ul>
+                    <li>Soekarno dan Mohammad Hatta yang membacakan naskah proklamasi atas nama bangsa Indonesia.</li>
+                    <li>Ahmad Soebardjo dan Sayuti Melik sebagai perumus dan pengetik teks proklamasi.</li>
+                    <li>Fatmawati yang menjahit Sang Saka Merah Putih.</li>
+                </ul>
+
+                <p><strong>3. Makna Sejarah</strong><br>
+                Menandai lahirnya negara Republik Indonesia yang merdeka, berdaulat, serta terlepas dari belenggu penjajahan bangsa asing.</p>
+            </div>
+        </details>
+
+        <!-- TOPIK 3: Pertempuran Surabaya -->
+        <details class="topic-card">
+            <summary class="topic-summary">
+                <div class="summary-title-area">
+                    <span class="topic-category">Perjuangan Bersenjata</span>
+                    <h3 class="topic-title">3. Pertempuran Surabaya & Hari Pahlawan</h3>
+                </div>
+                <div class="toggle-icon">+</div>
+            </summary>
+            <div class="topic-body">
+                <img src="Surabaya.jpeg" alt="Pertempuran Surabaya" class="topic-image">
+                <div class="image-caption">Ilustrasi Pertempuran Surabaya 10 November 1945</div>
+
+                <p><strong>1. Latar Belakang</strong><br>
+                Puncak konfrontasi antara pejuang Indonesia melawan tentara Sekutu dan NICA pasca-proklamasi, dipicu oleh tewasnya Brigadir Jenderal A.W. Mallaby.</p>
+
+                <p><strong>2. Peristiwa Puncak (10 November 1945)</strong><br>
+                Rakyat dan pejuang Surabaya di bawah pimpinan Bung Tomo membakar semangat perlawanan menghadapi ultimatum Inggris untuk menyerahkan senjata.</p>
+
+                <p><strong>3. Dampak</strong><br>
+                Diperingati setiap tanggal 10 November sebagai <strong>Hari Pahlawan</strong> karena keteguhan rakyat Surabaya mempertahankan kemerdekaan.</p>
+            </div>
+        </details>
+
+        <!-- TOPIK 4: Perjanjian Renville -->
+        <details class="topic-card">
+            <summary class="topic-summary">
+                <div class="summary-title-area">
+                    <span class="topic-category">Diplomasi</span>
+                    <h3 class="topic-title">4. Perjanjian Renville</h3>
+                </div>
+                <div class="toggle-icon">+</div>
+            </summary>
+            <div class="topic-body">
+                <img src="Renville.jpeg" alt="Perjanjian Renville" class="topic-image">
+                <div class="image-caption">Ilustrasi Perundingan Diplomasi Renville</div>
+
+                <p><strong>1. Pelaksanaan</strong><br>
+                Perundingan antara Indonesia dan Belanda yang dilaksanakan di atas geladak kapal perang Amerika Serikat, USS Renville, yang berlabuh di Teluk Jakarta pada <strong>8 Desember 1947</strong>.</p>
+
+                <p><strong>2. Tokoh Utama</strong><br>
+                Delegasi Indonesia dipimpin oleh Amir Sjarifuddin, sedangkan pihak Belanda dipimpin oleh R. Abdul Kadir Widjojoatmodjo.</p>
+
+                <p><strong>3. Dampak Merugikan</strong><br>
+                Wilayah kekuasaan Republik Indonesia semakin menyempit akibat diterapkannya Garis Demarkasi Van Mook, yang kemudian memicu Agresi Militer Belanda II.</p>
+            </div>
+        </details>
+
+        <!-- TOPIK 5: Serangan Umum 1 Maret 1949 -->
+        <details class="topic-card">
+            <summary class="topic-summary">
+                <div class="summary-title-area">
+                    <span class="topic-category">Strategi & Militer</span>
+                    <h3 class="topic-title">5. Serangan Umum 1 Maret 1949</h3>
+                </div>
+                <div class="toggle-icon">+</div>
+            </summary>
+            <div class="topic-body">
+                <img src="SU1M.jpeg" alt="Serangan Umum 1 Maret" class="topic-image">
+                <div class="image-caption">Ilustrasi Serangan Umum 1 Maret 1949 di Yogyakarta</div>
+
+                <p><strong>1. Latar Belakang</strong><br>
+                Dilancarkan untuk membuktikan kepada dunia internasional (khususnya PBB) bahwa Republik Indonesia dan TNI masih ada dan kuat meskipun ibu kota telah diduduki Belanda saat Agresi Militer II.</p>
+
+                <p><strong>2. Pelaksanaan</strong><br>
+                Serangan besar-besaran yang direncanakan oleh Sri Sultan Hamengku Buwono IX dan dipimpin di lapangan oleh Letkol Soeharto di kota Yogyakarta.</p>
+
+                <p><strong>3. Hasil Utama</strong><br>
+                Berhasil menduduki Yogyakarta selama 6 jam dan mematahkan propaganda Belanda di dunia internasional bahwa TNI telah hancur.</p>
+            </div>
+        </details>
+
+        <a href="index.html" class="back-link">&larr; Kembali ke Beranda Utama</a>
+    </div>
+</body>
+</html>
